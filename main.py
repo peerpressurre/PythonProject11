@@ -1,9 +1,11 @@
-import math
-def cube(b):
-    try:
-        return math.pow(b, 3)
 
+def max_number(a, b):
+    try:
+        return max(a, b)
     except Exception as ex:
         print(f'Error information: {ex}')
-res = cube(2)
-print(int(res)
+
+max_number(3, 6)
+res = max_number()
+print(res)
+
