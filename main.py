@@ -1,11 +1,10 @@
 def rec(a, b):
     try:
-        for i in range(a):
-            for j in range(b):
-                print('*', end=' ')
-            print()
-        print()
-    except Exception as ex:
-        print(f'Error: {ex}')
+        factorial = 1
 
-rec(3,4
+        for i in range(1, b + 1):
+            factorial *= i
+        print(f'{factorial}')
+    except Exception as ex:
+        print(f'Error information: {ex}')
+rec(1,10)
