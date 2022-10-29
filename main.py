@@ -13,4 +13,4 @@ def rec(b):
     except Exception as ex:
         print(f'Error information: {ex}')
 
-rec(3)
+rec(3
