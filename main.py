@@ -6,5 +6,5 @@ def max_number(a, b):
         print(f'Error information: {ex}')
 
 res = max_number(3, 6)
-print(res)
+print(res
 
