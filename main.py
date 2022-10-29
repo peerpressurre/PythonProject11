@@ -1,4 +1,4 @@
-def rec(a, b):
+def rec(b):
     try:
         factorial = 1
 
@@ -7,4 +7,5 @@ def rec(a, b):
         print(f'{factorial}')
     except Exception as ex:
         print(f'Error information: {ex}')
-rec(1,10)
+
+rec(10)
