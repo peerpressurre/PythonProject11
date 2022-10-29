@@ -8,4 +8,4 @@ def rec(b):
     except Exception as ex:
         print(f'Error information: {ex}')
 
-rec(10)
+rec(10
