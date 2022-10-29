@@ -8,4 +8,4 @@ def rec(a, b):
     except Exception as ex:
         print(f'Error: {ex}')
 
-rec(3,4)
+rec(3,4
