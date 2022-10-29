@@ -6,4 +6,4 @@ def cube(b):
     except Exception as ex:
         print(f'Error information: {ex}')
 res = cube(2)
-print(int(res))
+print(int(res)
