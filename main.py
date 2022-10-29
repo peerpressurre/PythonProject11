@@ -1,10 +1,13 @@
 
-def max_number(a, b):
+def num(a):
     try:
-        return max(a, b)
+        if a < 0:
+            return False
+        if a > 0:
+            return True
     except Exception as ex:
         print(f'Error information: {ex}')
 
-res = max_number(3, 6)
-print(res
+res = num(5)
+print(res)
 
