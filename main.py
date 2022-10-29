@@ -5,7 +5,6 @@ def max_number(a, b):
     except Exception as ex:
         print(f'Error information: {ex}')
 
-max_number(3, 6)
-res = max_number()
+res = max_number(3, 6)
 print(res)
 
